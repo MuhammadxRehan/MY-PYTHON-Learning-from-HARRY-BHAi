@@ -1,0 +1,38 @@
+#this can sort a string  but not integers
+students = []  
+f1 = input ("marks here :")
+students.append(f1)
+f2 = input("marks here :")
+students.append(f2)
+f3 = input("marks here :")
+students.append(f3)
+f4 = input("marks here :")
+students.append(f4)
+f5 = input("marks here :")
+students.append(f5)
+f6 = input("marks here :")
+students.append(f6)
+f7 = input("marks here :")
+students.append(f7)
+students.sort()
+print(students)
+
+
+# this will do integer sorting 
+students = []  
+f1 = int(input ("marks here :"))
+students.append(f1)
+f2 = int(input("marks here :"))
+students.append(f2)
+f3 = int(input("marks here :"))
+students.append(f3)
+f4 = int(input("marks here :"))
+students.append(f4)
+f5 = int(input("marks here :"))
+students.append(f5)
+f6 = int(input("marks here :"))
+students.append(f6)
+f7 = int(input("marks here :"))
+students.append(f7)
+students.sort()
+print(students)
